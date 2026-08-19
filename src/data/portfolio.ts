@@ -1,7 +1,7 @@
 export type EvidenceKind = 'experience' | 'certificate' | 'achievement' | 'project' | 'profile'
 export type EvidenceItem = { title:string; eyebrow:string; kind:EvidenceKind; image:string; subtitle?:string; description:string; tags?:string[]; details?:string[]; url?:string; cta?:string; githubUrl?:string; liveUrl?:string }
 
-export const personal = { name:'Ayushkumar Vishwakarma', email:'ayushkumarvishwakarma46@gmail.com', phone:'9076390524', phoneHref:'+919076390524', location:'Mumbai', linkedin:'https://linkedin.com/in/ayushkumar-vishwakarma', github:'https://github.com/Ayush1912033', portfolio:'https://ayushkumar-portfolio.pages.dev/', profileImage:'/media/profile/profile-placeholder.jpg', profileDescription:'Profile image placeholder. Replace this file with your professional photograph.' }
+export const personal = { name:'Ayushkumar Vishwakarma', email:'ayushkumarvishwakarma46@gmail.com', phone:'9076390524', phoneHref:'+919076390524', location:'Mumbai', linkedin:'https://linkedin.com/in/ayushkumar-vishwakarma', github:'https://github.com/Ayush1912033', portfolio:'https://ayushkumar-portfolio.pages.dev/', profileImage:'/media/profile/profile-placeholder.jpeg', profileDescription:'Software Engineer experienced in enterprise retail applications, full-stack development, AI/ML, and data analytics. Currently working as an ETP POS Application Engineer at Tata Trent.' }
 
 export const experience:EvidenceItem[] = [
   {title:'Tata Trent Ltd.',eyebrow:'CURRENT ROLE',kind:'experience',image:'/media/experience/tata-trent.jpg',subtitle:'ETP POS Application Engineer · June 2026 — Present',description:'Support and troubleshoot enterprise POS applications to help maintain reliable retail operations.',tags:['Enterprise applications','SQL','Linux','Java','Python'],details:['Database analysis and data validation using SQL','Log investigation and troubleshooting on Linux','Incident analysis with technical and business teams','Root-cause investigation and application-level resolutions']},
@@ -9,16 +9,16 @@ export const experience:EvidenceItem[] = [
 ]
 
 export const certificates:EvidenceItem[] = [
-  {title:'Data Science & Analytics Program',eyebrow:'IMARTICUS LEARNING',kind:'certificate',image:'/media/certificates/imarticus-data-science.jpg',description:'DEMO CERTIFICATE — Replace with actual certificate.'},
-  {title:'AWS Academy Machine Learning Foundations',eyebrow:'AWS',kind:'certificate',image:'/media/certificates/aws-ml.jpg',description:'DEMO CERTIFICATE — Replace with actual certificate.'},
-  {title:'Python for Data Science, AI & Development',eyebrow:'IBM',kind:'certificate',image:'/media/certificates/ibm-python.jpg',description:'DEMO CERTIFICATE — Replace with actual certificate.'},
-  {title:'Generative AI & Productivity Skills',eyebrow:'MICROSOFT & LINKEDIN',kind:'certificate',image:'/media/certificates/microsoft-genai.jpg',description:'DEMO CERTIFICATE — Replace with actual certificate.'}
+  {title:'Data Science & Analytics Program',eyebrow:'IMARTICUS LEARNING',kind:'certificate',image:'/media/certificates/imarticus-data-science.png',description:''},
+  {title:'AWS Academy Machine Learning Foundations',eyebrow:'AWS',kind:'certificate',image:'/media/certificates/aws-ml.png',description:''},
+  {title:'Python for Data Science, AI & Development',eyebrow:'IBM',kind:'certificate',image:'/media/certificates/ibm-python.png',description:''},
+  {title:'Generative AI & Productivity Skills',eyebrow:'MICROSOFT & LINKEDIN',kind:'certificate',image:'/media/certificates/microsoft-genai.png',description:''}
 ]
 
 export const achievements:EvidenceItem[] = [
-  {title:'IEEE Publication — 2025',eyebrow:'RESEARCH',kind:'achievement',image:'/media/achievements/ieee-publication.jpg',description:'Research paper accepted and published in IEEE Xplore.'},
-  {title:'HealthHack 2025 Finalist',eyebrow:'FINALIST',kind:'achievement',image:'/media/achievements/healthhack-finalist.jpg',description:'Finalist at the VIT Bhopal & Johns Hopkins University USA Hackathon.'},
-  {title:'InspireBiz 5.0 Finalist',eyebrow:'FINALIST',kind:'achievement',image:'/media/achievements/inspirebiz-finalist.jpg',description:'Finalist at the VESIM Innovation Competition.'}
+  {title:'IEEE Publication — 2025',eyebrow:'RESEARCH',kind:'achievement',image:'/media/achievements/ieee-publication.png',description:'Research paper accepted and published in IEEE Xplore.'},
+  {title:'HealthHack 2025 Finalist',eyebrow:'FINALIST',kind:'achievement',image:'/media/achievements/healthhack-finalist.png',description:'Finalist at the VIT Bhopal & Johns Hopkins University USA Hackathon.'},
+  {title:'InspireBiz 5.0 Finalist',eyebrow:'FINALIST',kind:'achievement',image:'/media/achievements/inspirebiz-finalist.png',description:'Finalist at the VESIM Innovation Competition.'}
 ]
 
 export const projects:EvidenceItem[] = [
