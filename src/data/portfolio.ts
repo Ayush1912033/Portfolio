@@ -5,7 +5,7 @@ export const personal = { name:'Ayushkumar Vishwakarma', email:'ayushkumarvishwa
 
 export const experience:EvidenceItem[] = [
   {title:'Tata Trent Ltd.',eyebrow:'CURRENT ROLE',kind:'experience',image:'/media/experience/tata-trent.jpg',subtitle:'ETP POS Application Engineer · June 2026 — Present',description:'Support and troubleshoot enterprise POS applications to help maintain reliable retail operations.',tags:['Enterprise applications','SQL','Linux','Java','Python'],details:['Database analysis and data validation using SQL','Log investigation and troubleshooting on Linux','Incident analysis with technical and business teams','Root-cause investigation and application-level resolutions']},
-  {title:'Lursell Business Machines',eyebrow:'INTERNSHIP / 2025',kind:'experience',image:'/media/experience/lursell.jpg',subtitle:'Software Development Intern · March 2025 — April 2025',description:'Developed backend functionality for a Gym Management System using Node.js, Express.js, and MongoDB.',tags:['Node.js','Express.js','MongoDB'],details:['Implemented server-side logic','Built database interactions','Assisted with deployment and troubleshooting']}
+  {title:'Lursell Business Machines',eyebrow:'INTERNSHIP / 2025',kind:'experience',image:'/media/experience/lursell.png',subtitle:'Software Development Intern · March 2025 — April 2025',description:'Developed backend functionality for a Gym Management System using Node.js, Express.js, and MongoDB.',tags:['Node.js','Express.js','MongoDB'],details:['Implemented server-side logic','Built database interactions','Assisted with deployment and troubleshooting']}
 ]
 
 export const certificates:EvidenceItem[] = [
@@ -22,15 +22,15 @@ export const achievements:EvidenceItem[] = [
 ]
 
 export const projects:EvidenceItem[] = [
-  {title:'OncoLens',eyebrow:'FEATURED PROJECT',kind:'project',image:'/media/projects/oncolens.jpg',subtitle:'AI-Based Cancer Prediction Platform',description:'Developed an AI-based cancer prediction platform using clinical and gene-expression data for cancer type classification, stage prediction, and survival risk estimation.',tags:['React','Node.js','Python','TensorFlow','Deep Learning'],details:['Trained and evaluated FNN, DNN, and RNN models','Achieved up to 92% accuracy','Integrated models with a React and Node.js application for interactive predictions']},
-  {title:'Manodarpan',eyebrow:'INTELLIGENT PLATFORM',kind:'project',image:'/media/projects/manodarpan.jpg',subtitle:'AI Mental Health Assessment Platform',description:'Developed a multilingual mental health assessment platform using GAD-7, PHQ-9, HAM-A, and HAM-D scales, with MuRIL-based emotion analysis and machine learning models for sentiment analysis.',tags:['Flutter','Flask','Python','NLP','Firebase']},
-  {title:'Medicine Authentication System',eyebrow:'BLOCKCHAIN PROJECT',kind:'project',image:'/media/projects/medicine-authentication.jpg',subtitle:'Blockchain-Based Authentication',description:'Developed a blockchain-based medicine authentication system using Ethereum smart contracts, with a React/Vite interface and MetaMask integration for secure verification.',tags:['React','Vite','Ethereum','Solidity','Hardhat','MetaMask']}
+  {title:'OncoDecode',eyebrow:'FEATURED PROJECT',kind:'project',image:'/media/projects/oncodecode.png',subtitle:'AI-Based Cancer Prediction Platform',description:'Developed an AI-based cancer prediction platform using clinical and gene-expression data for cancer type classification, stage prediction, and survival risk estimation.',tags:['React','Node.js','Python','TensorFlow','Deep Learning'],details:['Trained and evaluated FNN, DNN, and RNN models','Achieved up to 92% accuracy','Integrated models with a React and Node.js application for interactive predictions']},
+  {title:'Manodarpan',eyebrow:'INTELLIGENT PLATFORM',kind:'project',image:'/media/projects/manodarpan.png',subtitle:'AI Mental Health Assessment Platform',description:'Developed a multilingual mental health assessment platform using GAD-7, PHQ-9, HAM-A, and HAM-D scales, with MuRIL-based emotion analysis and machine learning models for sentiment analysis.',tags:['Flutter','Flask','Python','NLP','Firebase']},
+  {title:'Medicine Authentication System',eyebrow:'BLOCKCHAIN PROJECT',kind:'project',image:'/media/projects/medicine-authentication.png',subtitle:'Blockchain-Based Authentication',description:'Developed a blockchain-based medicine authentication system using Ethereum smart contracts, with a React/Vite interface and MetaMask integration for secure verification.',tags:['React','Vite','Ethereum','Solidity','Hardhat','MetaMask']}
 ]
 
 export const skills = { Languages:['Java','Python','JavaScript','SQL'], Development:['React','Node.js','Express.js','Flask','REST APIs'], 'AI/ML & Data':['TensorFlow','Scikit-learn','Pandas','NumPy','NLP','OCR','Power BI'], 'Databases & Tools':['MySQL','MongoDB','Firebase','Git','GitHub','Linux','Postman','Hardhat','MetaMask'] }
 
 export const education = [
-  {institution:'Datta Meghe College of Engineering',program:'Bachelor of Engineering (B.E.) in Information Technology',detail:'CGPA: 8.55',period:'2022 — 2026'},
+  {institution:'Datta Meghe College of Engineering, University of Mumbai',program:'Bachelor of Engineering (B.E.) in Information Technology',detail:'CGPA: 8.55',period:'2022 — 2026'},
   {institution:"St. Mary's Jr. College",program:'HSC',detail:'83.67%',period:'2020 — 2022'},
   {institution:"St. Mary's Multipurpose High School",program:'SSC',detail:'92.40%',period:'2020'}
 ]
